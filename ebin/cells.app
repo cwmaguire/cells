@@ -1,6 +1,6 @@
-{application, cells_app,
+{application, cells,
  [{description, "Cubic cell simulator"},
-  {vsn, "1"},
+  {vsn, "0.1.0"},
   {modules, [cells_app,
              cells_sup,
              cells_cell,
