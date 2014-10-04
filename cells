@@ -1,1 +1,1 @@
-erl -pa ebin src
+erl -pa apps/cells/ebin apps/cells/src

@@ -1,5 +1,0 @@
-{release, {"Cells", "0.1.0"}, {erts, "5.10.3"},
-  [{kernel, "2.16.3", permanent},
-   {stdlib, "1.19.3", permanent},
-   {sasl, "2.3.3", permanent},
-   {cells, "0.1.0", temporary, []}]}.
