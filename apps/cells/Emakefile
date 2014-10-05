@@ -1,0 +1,22 @@
+% http://www.erlang.org/doc/man/make.html
+% http://www.erlang.org/doc/man/compile.html#type-option
+%
+% {i,Dir}
+% Add Dir to the list of directories to be searched when
+% including a file. When encountering an -include or -include_lib
+% directive, the compiler searches for header files in
+% the following directories:
+%   - ".", the current working directory of the file server;
+%   - the base name of the compiled file;
+%   - the directories specified using the i option. The directory
+%     specified last is searched first
+%
+% {outdir,Dir}
+% Sets a new directory for the object code. The current directory
+% is used for output, except when a directory has been specified
+% with this option.ied last is searched first.
+
+{'src/*',
+ [debug_info,
+  {i, "include"},
+	{outdir, "ebin"}]}.
